@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kingspen Stationery</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; background:#f0f8ff;}
+    header {background:linear-gradient(90deg,#ff7e5f,#feb47b); color:white; padding:20px; text-align:center;}
+    .logo {width:120px; display:block; margin:0 auto 10px auto; border-radius:10px;}
+    nav {background:#ff6f61; padding:15px; text-align:center;}
+    nav a {color:white; margin:0 15px; text-decoration:none; font-weight:bold; font-size:16px;}
+    nav a:hover {text-decoration:underline;}
+    .hero {padding:60px; text-align:center; background:url('https://images.unsplash.com/photo-1588072432836-e10032774350') no-repeat center/cover; color:white;}
+    .hero h1 {font-size:40px;}
+    .section {padding:50px;}
+    .section h2 {text-align:center; color:#333; margin-bottom:30px;}
+    .grid {display:grid; grid-template-columns:repeat(auto-fit, minmax(180px,1fr)); gap:25px;}
+    .category-grid {display:grid; grid-template-columns:repeat(auto-fit, minmax(140px,1fr)); gap:25px; text-align:center;}
+    .category-card {background:white; border-radius:15px; padding:15px; box-shadow:0 4px 10px rgba(0,0,0,0.1); transition:0.3s;}
+    .category-card:hover {transform:scale(1.05);}
+    .category-card img {width:80px; height:80px; object-fit:cover; border-radius:10px;}
+    .category-card h3 {margin-top:10px; font-size:14px; color:#333;}
+    .card {background:white; padding:15px; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.1); text-align:center;}
+    .card img {width:100%; height:140px; object-fit:cover; border-radius:10px;}
+    .card h3 {color:#ff6f61;}
+    .card a {text-decoration:none; color:inherit;}
+    footer {background:#333; color:white; text-align:center; padding:20px; margin-top:30px;}
+    .whatsapp-btn {position:fixed; bottom:20px; right:20px; background:#25D366; color:white; padding:15px 20px; border-radius:50px; text-decoration:none; font-weight:bold;}
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="Logo.PNG" alt="Kingspen Logo" class="logo">
+  <h1>Kingspen Stationery</h1>
+  <p>Your one stop shop for quality stationery for your businesses and professional services for your child's learning, creativity and growth</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#services">Services</a>
+  <a href="#categories">Products</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+  <h1>Welcome to Kingspen Stationery</h1>
+  <p>Click a category to view products and prices</p>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card"><h3>Office and School Stationery</h3><p>We supply quality stationery you can think of for students, schools, institutions and businesses.</p></div>
+    <div class="card"><h3>Bulk Orders</h3><p>Affordable bulk stationery for institutions and businesses.</p></div>
+    <div class="card"><h3>Custom Orders</h3><p>We help you find specific learning and creative materials.</p></div>
+  </div>
+</section>
+
+<!-- PRODUCT CATEGORIES (TOP) -->
+<section class="section" id="categories">
+  <h2>Our Products</h2>
+  <div class="category-grid">
+    <div class="category-card"><a href="#bags"><img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1"><h3>Bags</h3></a></div>
+    <div class="category-card"><a href="#notebooks"><img src="https://images.unsplash.com/photo-1519681393784-d120267933ba"><h3>Notebooks</h3></a></div>
+    <div class="category-card"><a href="#pens"><img src="https://images.unsplash.com/photo-1581091870627-3e7b8c6c1c7b"><h3>Ball Pens</h3></a></div>
+    <div class="category-card"><a href="#pencils"><img src="https://images.unsplash.com/photo-1588072432904-843af37f03ed"><h3>Pencils</h3></a></div>
+    <div class="category-card"><a href="#books"><img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"><h3>Books</h3></a></div>
+    <div class="category-card"><a href="#toys"><img src="https://images.unsplash.com/photo-1596464716127-f2a82984de30"><h3>Toys</h3></a></div>
+  </div>
+</section>
+
+<!-- CATEGORY DETAILS -->
+<section class="section" id="bags">
+  <h2>Bags</h2>
+  <div class="grid">
+    <div class="card"><img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1"><p>School Bag</p><p><strong>K250</strong></p></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad"><p>Travel Bag</p><p><strong>K300</strong></p></div>
+  </div>
+</section>
+
+<section class="section" id="notebooks">
+  <h2>Notebooks</h2>
+  <div class="grid">
+    <div class="card"><img src="https://images.unsplash.com/photo-1519681393784-d120267933ba"><p>Exercise Book</p><p><strong>K25</strong></p></div>
+  </div>
+</section>
+
+<section class="section" id="pens">
+  <h2>Ball Pens</h2>
+  <div class="grid">
+    <div class="card"><img src="https://images.unsplash.com/photo-1581091870627-3e7b8c6c1c7b"><p>Blue Pen Pack</p><p><strong>K50</strong></p></div>
+  </div>
+</section>
+
+<section class="section" id="pencils">
+  <h2>Pencils & Erasers</h2>
+  <div class="grid">
+    <div class="card"><img src="https://images.unsplash.com/photo-1588072432904-843af37f03ed"><p>Pencil Set</p><p><strong>K40</strong></p></div>
+  </div>
+</section>
+
+<section class="section" id="books">
+  <h2>Books</h2>
+  <div class="grid">
+    <div class="card"><img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"><p>Story Book</p><p><strong>K120</strong></p></div>
+  </div>
+</section>
+
+<section class="section" id="toys">
+  <h2>Toys</h2>
+  <div class="grid">
+    <div class="card"><img src="https://images.unsplash.com/photo-1596464716127-f2a82984de30"><p>Learning Toy</p><p><strong>K180</strong></p></div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <h2>About Us</h2>
+  <p>Kingspen Stationery provides colorful, engaging, and high-quality learning materials.</p>
+</section>
+
+<section class="section" id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: kingspen.stationery@gmail.com</p>
+  <p>Phone: +260 955 721 981</p>
+  <p>Location: Lusaka, Zambia</p>
+  <iframe src="https://www.google.com/maps?q=Lusaka,Zambia&output=embed" width="100%" height="300" style="border:0;"></iframe>
+</section>
+
+<footer>
+  <p>© 2026 Kingspen Stationery</p>
+</footer>
+
+<a class="whatsapp-btn" href="https://wa.me/260955721981?text=Hello%20Kingspen%20Stationery,%20I%20would%20like%20to%20order" target="_blank">💬 Order</a>
+
+</body>
+</html>
